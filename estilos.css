@@ -1,0 +1,56 @@
+/* Escribir las reglas CSS en este archivo.
+   Cada regla tiene esta forma:
+
+   selector {
+     propiedad: valor;
+   }
+
+   Después de cada cambio: guardar (Ctrl + S) y refrescar el navegador (F5). */
+
+   body {
+    background-color: rgb(88, 146, 61);
+    color: rgb(107, 27, 27);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+   }
+
+   header {
+    background-color: rgb(49, 82, 27);
+    color: rgb(243, 255, 137);
+    text-align: center;
+    padding: 10px;
+   }
+
+   h1 {
+    font-size: 32px;
+    margin: 0px;
+   }
+
+   h2 {
+    color: rgb(63, 29, 10);
+    font-size: 20px;
+    border-bottom: rgb(156, 104, 69) solid 1px;
+   }
+
+   section {
+    background-color: rgb(255, 247, 199);
+    border: rgb(216, 182, 155) solid 1px;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 10px;
+   }
+
+   .destacado {
+    background-color: rgb(255, 252, 98);
+    font-weight: bold;
+    padding: 3px;
+   }
+
+  footer {
+    background-color: rgb(22, 83, 20);
+    color: rgb(250, 255, 180);
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+   }
